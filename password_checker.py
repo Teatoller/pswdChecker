@@ -14,7 +14,7 @@ class Password_checker:
             continue
         elif not re.search('[1-9]', password_input):
             """ checks if password has a number or not """
-            print('Password Failed: Should contain a number between [1-9]')
+            print('Password Failed: Should contain a number between [0-9]')
             continue
         elif not re.search('[A-Z]', password_input):
             """ checks if password has an uppercase alpha or not """
